@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.mysql.dao.Dao">
+    <!--<select id="getDatabase" resultType="com.mysql.bean.User">
+        SELECT * FROM  user
+    </select>
+    <select id="queryAddress" resultType="map">
+        select ipName,id from `baseAdress` where state=1
+    </select>
+
+    <select id="queryIpById" parameterType="int" resultType="map">
+        select ipName,id from `baseAdress` where state=1 AND id=#{id}
+    </select>
+
+    <select id="countTask" parameterType="String" resultType="int">
+        SELECT count FROM taskthread wehere taskid=#{value}
+    </select>
+
+    <delete id="delTask" parameterType="String">
+        DELETE FROM taskthread WHERE  taskid=#{value}
+    </delete>
+
+    <insert id="addTask" parameterType="String">
+        INSERT INTO taskthread (`taskid`, `count`) VALUES (#{value}, 0);
+    </insert>
+
+    <update id="addOneTenth" parameterType="String">
+        UPDATE taskthread SET  `count`=count+1 (`taskid`=#{value});
+    </update>
+
+    <update id="minusOne" parameterType="String">
+        UPDATE taskthread SET  `count`=count-1 (`taskid`=#{value});
+    </update>-->
+</mapper>
